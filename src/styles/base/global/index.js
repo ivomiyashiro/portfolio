@@ -38,6 +38,25 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 400;
   }
 
+  ::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #b0b2c3;
+    border-radius: 20px;
+    border: 4px solid transparent;
+    background-clip: content-box;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #fff;
+  }
+
   * {
     margin: 0;
     padding: 0;
